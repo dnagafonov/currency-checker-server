@@ -10,7 +10,8 @@ app.use(bodyParser.json());
 app.get("/exchange", async (req, res) => {
   try {
     const { startDate, endDate, currencyID } = req.query;
-    res.json(req.query);
+    const rates = await nbrbAPI.get(`${currencyID}?startDate=${startDate}&endDate=${endDate}`).then(res => res.data);
+    res.json(rates);
   } catch (e) {
     res.status(404).send(e.message);
   }
