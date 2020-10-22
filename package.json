@@ -1,0 +1,19 @@
+{
+  "name": "currency-checker-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dnagafonov/currency-checker-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnagafonov/currency-checker-server/issues"
+  },
+  "homepage": "https://github.com/dnagafonov/currency-checker-server#readme"
+}
